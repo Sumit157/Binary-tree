@@ -1,4 +1,4 @@
-# Binary Search Tree (BST) Creation and Operations
+# 1st Program:- Binary Search Tree (BST) Creation and Operations
 
 ## Overview
 
@@ -45,7 +45,45 @@ This C program implements a Binary Search Tree (BST) and provides functionality 
 2. Run the executable and follow the on-screen menu.
 
 ## Note
-
 - Ensure correct input values to avoid unexpected behavior.
+
+
+# 2nd Program:- Binary Search Tree (BST) Node Counting(Countnode.c) Program.
+
+## Overview
+
+This C program implements a binary search tree (BST) and provides functionality for creating the tree, counting the total number of nodes, and counting the total number of leaf nodes. A binary search tree is a hierarchical data structure where each node has at most two children, and the left child contains values less than the node, while the right child contains values greater than the node.
+
+## Features
+
+1. **Create BST (`create_bst`):**
+   - Accepts user input to determine the number of nodes to create.
+   - Dynamically allocates memory for each node and builds the binary search tree.
+   - Inserts each new node into the appropriate position based on its data value.
+
+2. **Count Total Nodes (`count`):**
+   - Counts the total number of nodes in the binary search tree using a recursive approach.
+   - Returns the total count.
+
+3. **Count Leaf Nodes (`countLeaf`):**
+   - Counts the total number of leaf nodes (nodes with no children) in the binary search tree using a recursive approach.
+   - Returns the count of leaf nodes.
+
+4. **Menu-Driven Interface (`main`):**
+   - Provides a simple interactive menu for the user with options to create the BST, count total nodes, count leaf nodes, and exit the program.
+
+5. **Instructions:**
+   - Choose option 1 to create a BST.
+   - Choose option 2 to count and display the total number of nodes in the BST.
+   - Choose option 3 to count and display the total number of leaf nodes in the BST.
+   - Choose option 4 to exit the program.
+
+6. **Note:**
+   - The program utilizes static variables to maintain counts across recursive calls.
+
+## Usage
+
+1. Compile the program using a C compiler (e.g., GCC).
+2. Run the executable and follow the on-screen menu.
 
 Feel free to explore, modify, and enhance the code for educational purposes or specific use cases.
