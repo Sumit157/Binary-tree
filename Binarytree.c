@@ -125,7 +125,7 @@ preorder(root);
 break;
 case 5 :
 postorder(root);
-reak;
+break;
 case 6 :
 exit(0);
 }
