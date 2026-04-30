@@ -87,3 +87,53 @@ This C program implements a binary search tree (BST) and provides functionality 
 2. Run the executable and follow the on-screen menu.
 
 Feel free to explore, modify, and enhance the code for educational purposes or specific use cases.
+
+---
+
+# 3rd Program:- Election Guide Assistant (`election_assistant.py`)
+
+## Overview
+
+This Python assistant provides an interactive, easy-to-follow guide to the election process, including:
+
+- A simple voting timeline.
+- Step-by-step election participation guidance.
+- A personalized quick voting plan.
+- Answers to common election questions.
+
+## Run
+
+```bash
+python3 election_assistant.py
+```
+
+## Note
+
+This tool provides general U.S.-focused guidance. Election rules vary by state and county, so always verify official details with your local election office.
+
+---
+
+# 4th Program:- India Election Guide Web App (`index.html`)
+
+## Overview
+
+A beautiful, interactive web app tailored for Indian election awareness. It helps users:
+
+- Understand election timelines.
+- Follow step-by-step voting guidance.
+- Generate a personalized voting checklist.
+- Browse/search common election FAQs.
+
+## Run Locally
+
+Open `index.html` in a browser directly, or serve the folder:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then visit `http://localhost:8000`.
+
+## Important Note
+
+The app provides general guidance for Indian elections. Always verify exact and current rules with official Election Commission/state election resources.
