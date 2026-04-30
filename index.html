@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>India Election Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <h1>🗳️ India Election Guide</h1>
+        <div class="nav-links">
+          <a href="#timeline">Timeline</a>
+          <a href="#steps">Steps</a>
+          <a href="#planner">My Plan</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </nav>
+      <section class="hero-content">
+        <h2>Your step-by-step guide to voting in India</h2>
+        <p>
+          Understand the election process in a simple way and build your personal
+          voting checklist.
+        </p>
+        <div class="hero-cta">
+          <a href="#planner" class="btn primary">Build My Voting Plan</a>
+          <a href="#steps" class="btn secondary">Learn Voting Steps</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="timeline" class="card-section">
+        <h3>Election Timeline (India)</h3>
+        <p class="section-subtext">A friendly timeline to help you prepare early.</p>
+        <div id="timeline-cards" class="grid"></div>
+      </section>
+
+      <section id="steps" class="card-section alt-bg">
+        <h3>Step-by-Step Voting Process</h3>
+        <p class="section-subtext">Follow these steps for a smooth voting experience.</p>
+        <div id="steps-list" class="steps-list"></div>
+      </section>
+
+      <section id="planner" class="card-section">
+        <h3>Build My Voting Checklist</h3>
+        <p class="section-subtext">Tell us a few details and get a personalized checklist.</p>
+
+        <form id="planner-form" class="planner-form">
+          <label>
+            State / UT
+            <input type="text" id="state" placeholder="e.g., Maharashtra" required />
+          </label>
+
+          <label>
+            Voting status
+            <select id="status" required>
+              <option value="registered">Registered</option>
+              <option value="not_sure">Not Sure</option>
+              <option value="not_registered">Not Registered</option>
+            </select>
+          </label>
+
+          <label>
+            Preferred voting language
+            <select id="language" required>
+              <option value="english">English</option>
+              <option value="hindi">Hindi</option>
+              <option value="regional">Regional Language</option>
+            </select>
+          </label>
+
+          <button type="submit" class="btn primary">Generate Checklist</button>
+        </form>
+
+        <div id="plan-output" class="output hidden"></div>
+      </section>
+
+      <section id="faq" class="card-section alt-bg">
+        <h3>Common Questions</h3>
+        <input id="faq-search" type="text" placeholder="Search questions (e.g., EPIC, EVM, polling booth)" />
+        <div id="faq-list" class="faq-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        This app provides general guidance for Indian elections. Always verify exact
+        rules, dates, and eligibility using official Election Commission and state
+        election resources.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
